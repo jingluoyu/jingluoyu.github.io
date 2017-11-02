@@ -138,6 +138,7 @@
 		});
 	};
 
+	// 左移出现动画
 	function leftshow(e) {
 		$(e).waypoint(function (direction) {
 			if( direction === 'down' ) {
@@ -146,6 +147,7 @@
 			}
 		},{offset: '85%'});
 	}
+	// 右移出现动画
 	var rightshow = function (e) {
 		$(e).waypoint(function (direction) {
 			if( direction === 'down' ) {
