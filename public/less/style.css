@@ -226,7 +226,6 @@ body {
   background: rgba(0, 0, 0, 0.8);
 }
 .wedding-cover {
-  background-image: url(../../images/top.jpg);
   background-position: 0px 0px;
   background-size: cover;
   position: relative;
@@ -579,12 +578,12 @@ body {
 }
 #assess-content p {
   width: 300px;
-  margin: 44px 0 0 204px;
+  margin: 0 auto;
   border: 3px solid #fff;
   height: 200px;
-  color: #000;
-  border-radius: 8px;
-  padding-top: 76px;
+  color: #fff;
+  background: rgba(251, 99, 88, 0.86);
+  padding: 50px 68px;
   box-shadow: 10px 10px 5px #888888;
   -moz-box-shadow: 10px 10px 5px #888888;
   -webkit-box-shadow: 10px 10px 5px #888888;
@@ -664,10 +663,6 @@ body {
 #footer .wedding-social-icons > a:active {
   text-decoration: none;
   color: rgba(255, 255, 255, 0.9) !important;
-}
-/*==================== 婚纱头部====================*/
-#dress-cover {
-  background-image: url(../../images/dress-top.jpg);
 }
 /*** 
 ====================================================================
@@ -945,7 +940,6 @@ body {
   height: 500px !important;
 }
 .makeup-subtitles .wedding-cover {
-  background-image: url(../../images/makeup-top.jpg);
   height: 500px !important;
 }
 .makeup-subtitles .desc {
@@ -1104,10 +1098,7 @@ body {
   主题婚礼头部
 ====================================================================
 ***/
-.theme-cover .wedding-cover {
-  background-image: url(../../images/theme-bg.jpg);
-}
-.theme-cover .wedding-cover h2 {
+.theme-cover h2 {
   margin-top: 96px;
 }
 /*** 
@@ -1289,9 +1280,6 @@ body {
  婚礼安排头部
 ====================================================================
 ***/
-.arrange-cover .wedding-cover {
-  background-image: url(../../images/arrang.jpg);
-}
 #wedding-arrange p {
   text-indent: 30px;
   color: #7b6c6c;
@@ -1339,9 +1327,6 @@ body {
  全球婚礼头部
 ====================================================================
 ***/
-.global-cover .wedding-cover {
-  background-image: url(../../images/global.jpg);
-}
 #wedding-global {
   margin-top: 70px;
 }
@@ -1497,9 +1482,6 @@ body {
 联系我们
 ====================================================================
 ***/
-.contact-cover {
-  background-image: url(../../images/contact.jpg);
-}
 #contact-content {
   margin-top: 2em;
 }
